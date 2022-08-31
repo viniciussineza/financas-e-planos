@@ -1,0 +1,20 @@
+:root {
+    /* colors */
+    --background: #683875; /* Rosa escuro */
+    --content__container: #9d56b0; /* Rosa médio */
+    --content__card: #c970e0; /* Rosa claro */
+    --branco: #fff;
+    --cinza: #838383;
+    --cinza-2C: #2C2C2C;
+
+    /* fonts */
+    --lato: 'Lato', sans-serif;
+    --silkscreen: 'Silkscreen', cursive;
+}
+
+html, body {
+    max-width: 100%;
+    overflow: auto;
+    background: var(--background);
+    font-family: var(--lato);
+}

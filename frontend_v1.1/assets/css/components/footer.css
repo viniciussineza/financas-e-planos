@@ -1,0 +1,34 @@
+footer {
+    width: 100vw;
+    height: 80px;
+    background: var(--content__container);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.2rem;
+    color: var(--branco);
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--branco);
+}
+
+@media screen and (min-width: 744px) {
+    footer {
+        height: 100px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    footer {
+        height: 100px;
+        width: 100%;
+    }
+}
